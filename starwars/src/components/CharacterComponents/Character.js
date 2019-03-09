@@ -1,5 +1,6 @@
 import React from 'react'
 
+import './StarWars.css'
 
 const Character = props => {
     return (
@@ -10,11 +11,9 @@ const Character = props => {
         <p className="characterBirthYear">
           Birth Year: {props.character.birth_year}
         </p>
-       <p>
-            Species:  
-       </p>
       </div>
     );
   };
 
 export default Character
+

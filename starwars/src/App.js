@@ -9,7 +9,6 @@ class App extends Component {
     super();
     this.state = {
       starwarsChars: [],
-      
     };
   }
 
@@ -37,11 +36,13 @@ class App extends Component {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
-        {this.state.starwarsChars.map((character) => {
-            return (
-              <Character character={character} />
-            );
-          })}
+        <div className="cardContainer">
+          {this.state.starwarsChars.map((character) => {
+              return (
+                <Character character={character} />
+              );
+            })}
+          </div>
       </div>
     );
   }
