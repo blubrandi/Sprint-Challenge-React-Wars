@@ -9,7 +9,10 @@ const Character = props => {
             {props.character.name}
         </h2>
         <p className="characterBirthYear">
-          Birth Year: {props.character.birth_year}
+          <span className="boldText">Birth Year:</span> {props.character.birth_year}
+        </p>
+        <p>
+            <span className="boldText">Mass:</span> {props.character.mass}
         </p>
       </div>
     );
