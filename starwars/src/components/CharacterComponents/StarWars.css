@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Monoton:400,700');
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:900');
 
 .characterCard {
     background-color: #fff;
@@ -21,4 +21,7 @@ p{
     padding-left: 1.4rem;
 }
 
+.boldText {
+    font-weight: 900;
+}
 
