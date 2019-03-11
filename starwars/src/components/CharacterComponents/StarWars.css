@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:900');
+
+.characterCard {
+    background-color: #fff;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 2rem 0;
+    margin-top: 2rem;
+    border-radius: 5px;
+}
+
+h2 {
+    font-family: 'Monoton', sans-serif;
+}
+
+p{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: left;
+    line-height: .8rem;
+    padding-left: 1.4rem;
+}
+
+.boldText {
+    font-weight: 900;
+}
+
